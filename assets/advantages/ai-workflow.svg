@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" role="img" aria-labelledby="title desc">
+  <title id="title">AI提效示意图</title>
+  <desc id="desc">用AI工具辅助选题、脚本、素材、剪辑和交付流程。</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="820" height="560" rx="28" fill="#fbfbf8"/>
+  <rect x="26" y="26" width="768" height="508" rx="22" fill="#ffffff" stroke="#d8d8d2" filter="url(#shadow)"/>
+  <rect x="26" y="26" width="72" height="508" rx="22" fill="#fafaf7" stroke="#e4e4de"/>
+  <circle cx="62" cy="74" r="17" fill="#111111"/>
+  <path d="M54 70h16v12h-16zM57 65h10v5h-10z" fill="#ffffff"/>
+  <g fill="none" stroke="#9b9b94" stroke-width="2">
+    <rect x="52" y="123" width="20" height="20" rx="6"/>
+    <rect x="52" y="173" width="20" height="20" rx="6"/>
+    <rect x="52" y="223" width="20" height="20" rx="6"/>
+    <rect x="52" y="273" width="20" height="20" rx="6"/>
+    <rect x="52" y="323" width="20" height="20" rx="6"/>
+  </g>
+  <text x="126" y="78" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#111111">AI提效</text>
+  <text x="222" y="78" font-family="Arial Narrow, sans-serif" font-size="15" fill="#73736c" letter-spacing="1">AI WORKFLOW</text>
+  <line x1="126" y1="105" x2="756" y2="105" stroke="#e0e0da"/>
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif">
+    <text x="126" y="156" font-size="22" font-weight="700" fill="#111111">AI工作台</text>
+    <rect x="126" y="184" width="180" height="56" rx="12" fill="#f2f2ee"/>
+    <rect x="126" y="258" width="180" height="56" rx="12" fill="#f2f2ee"/>
+    <rect x="126" y="332" width="180" height="56" rx="12" fill="#f2f2ee"/>
+    <rect x="126" y="406" width="180" height="56" rx="12" fill="#f2f2ee"/>
+    <text x="168" y="218" font-size="16" fill="#33332e">选题助手</text>
+    <text x="168" y="292" font-size="16" fill="#33332e">脚本助手</text>
+    <text x="168" y="366" font-size="16" fill="#33332e">素材知识库</text>
+    <text x="168" y="440" font-size="16" fill="#33332e">视频生成</text>
+    <g fill="none" stroke="#111111" stroke-width="2">
+      <rect x="146" y="202" width="18" height="18" rx="5"/>
+      <rect x="146" y="276" width="18" height="18" rx="5"/>
+      <rect x="146" y="350" width="18" height="18" rx="5"/>
+      <rect x="146" y="424" width="18" height="18" rx="5"/>
+    </g>
+  </g>
+  <g>
+    <text x="358" y="156" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#111111">AI工作流</text>
+    <g font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#34342f" text-anchor="middle">
+      <circle cx="384" cy="252" r="34" fill="#f1f1ed"/>
+      <circle cx="480" cy="252" r="34" fill="#f1f1ed"/>
+      <circle cx="576" cy="252" r="34" fill="#f1f1ed"/>
+      <circle cx="672" cy="252" r="34" fill="#f1f1ed"/>
+      <text x="384" y="324">选题</text>
+      <text x="480" y="324">脚本</text>
+      <text x="576" y="324">素材</text>
+      <text x="672" y="324">交付</text>
+    </g>
+    <g stroke="#9f9f98" stroke-width="2" fill="none" marker-end="url(#arrow)">
+      <path d="M420 252h24"/>
+      <path d="M516 252h24"/>
+      <path d="M612 252h24"/>
+    </g>
+    <defs>
+      <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+        <path d="M0 0l8 4-8 4z" fill="#9f9f98"/>
+      </marker>
+    </defs>
+    <g fill="none" stroke="#111111" stroke-width="2">
+      <path d="M374 252h20M384 242v20"/>
+      <rect x="470" y="240" width="20" height="24" rx="5"/>
+      <path d="M566 244h20v18h-20zM570 244v-8h12v8"/>
+      <path d="M662 244h20v18h-20zM666 240h12"/>
+    </g>
+  </g>
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif">
+    <text x="358" y="390" font-size="22" font-weight="700" fill="#111111">最近记录</text>
+    <rect x="358" y="418" width="360" height="38" rx="8" fill="#f7f7f4"/>
+    <rect x="358" y="466" width="360" height="38" rx="8" fill="#f7f7f4"/>
+    <text x="380" y="443" font-size="15" fill="#34342f">Claude拆选题</text>
+    <text x="380" y="491" font-size="15" fill="#34342f">NotebookLM整理素材库</text>
+    <text x="650" y="443" font-size="14" fill="#7e7e77">已完成</text>
+    <text x="650" y="491" font-size="14" fill="#7e7e77">已完成</text>
+  </g>
+</svg>

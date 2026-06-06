@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" role="img" aria-labelledby="title desc">
+  <title id="title">全流程制作示意图</title>
+  <desc id="desc">从定位、选题、脚本、拍摄、剪辑、发布到复盘的制作流程。</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="820" height="560" rx="28" fill="#fbfbf8"/>
+  <rect x="26" y="26" width="768" height="508" rx="22" fill="#ffffff" stroke="#d8d8d2" filter="url(#shadow)"/>
+  <rect x="26" y="26" width="72" height="508" rx="22" fill="#fafaf7" stroke="#e4e4de"/>
+  <circle cx="62" cy="74" r="17" fill="#111111"/>
+  <path d="M55 78h14v-11h-14z" fill="#ffffff"/>
+  <g fill="none" stroke="#9b9b94" stroke-width="2">
+    <rect x="52" y="123" width="20" height="20" rx="6"/>
+    <rect x="52" y="173" width="20" height="20" rx="6"/>
+    <rect x="52" y="223" width="20" height="20" rx="6"/>
+    <rect x="52" y="273" width="20" height="20" rx="6"/>
+    <rect x="52" y="323" width="20" height="20" rx="6"/>
+  </g>
+  <text x="126" y="78" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#111111">全流程制作</text>
+  <text x="292" y="78" font-family="Arial Narrow, sans-serif" font-size="15" fill="#73736c" letter-spacing="1">FULL PROCESS</text>
+  <line x1="126" y1="105" x2="756" y2="105" stroke="#e0e0da"/>
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#34342f">
+    <text x="126" y="148">01 定位</text>
+    <text x="220" y="148">02 选题</text>
+    <text x="314" y="148">03 脚本</text>
+    <text x="408" y="148" font-weight="700" fill="#111111">04 拍摄</text>
+    <text x="502" y="148">05 剪辑</text>
+    <text x="596" y="148">06 发布</text>
+    <text x="690" y="148">07 复盘</text>
+  </g>
+  <line x1="402" y1="162" x2="472" y2="162" stroke="#111111" stroke-width="3"/>
+  <g>
+    <text x="126" y="210" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#111111">拍摄计划</text>
+    <rect x="126" y="236" width="280" height="238" rx="14" fill="#ffffff" stroke="#deded8"/>
+    <g font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#373732">
+      <rect x="148" y="260" width="76" height="50" rx="8" fill="#e9e9e4"/>
+      <text x="244" y="280">场景01</text><text x="244" y="302" fill="#85857e">开场钩子</text><text x="338" y="292">4s</text>
+      <rect x="148" y="324" width="76" height="50" rx="8" fill="#e9e9e4"/>
+      <text x="244" y="344">场景02</text><text x="244" y="366" fill="#85857e">观点表达</text><text x="338" y="356">12s</text>
+      <rect x="148" y="388" width="76" height="50" rx="8" fill="#e9e9e4"/>
+      <text x="244" y="408">场景03</text><text x="244" y="430" fill="#85857e">案例展示</text><text x="338" y="420">18s</text>
+    </g>
+  </g>
+  <g>
+    <text x="454" y="210" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#111111">进度看板</text>
+    <rect x="454" y="236" width="112" height="112" rx="56" fill="none" stroke="#eeeeea" stroke-width="14"/>
+    <path d="M510 236a56 56 0 1 1-48 84" fill="none" stroke="#111111" stroke-width="14" stroke-linecap="round"/>
+    <text x="493" y="302" font-family="Arial Narrow, sans-serif" font-size="26" font-weight="700" fill="#111111">75%</text>
+    <g font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#34342f">
+      <circle cx="466" cy="390" r="5" fill="#111111"/><text x="486" y="396">定位 已完成</text>
+      <circle cx="466" cy="424" r="5" fill="#111111"/><text x="486" y="430">选题 已完成</text>
+      <circle cx="466" cy="458" r="5" fill="#111111"/><text x="486" y="464">拍摄 进行中</text>
+      <circle cx="466" cy="492" r="5" fill="#c9c9c2"/><text x="486" y="498">剪辑 未开始</text>
+    </g>
+  </g>
+  <g>
+    <text x="610" y="210" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#111111">稳定交付</text>
+    <rect x="610" y="236" width="124" height="44" rx="8" fill="#f1f1ed"/>
+    <rect x="610" y="296" width="124" height="44" rx="8" fill="#f1f1ed"/>
+    <rect x="610" y="356" width="124" height="44" rx="8" fill="#f1f1ed"/>
+    <rect x="610" y="416" width="124" height="44" rx="8" fill="#f1f1ed"/>
+    <text x="632" y="264" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#34342f">脚本确认</text>
+    <text x="632" y="324" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#34342f">拍摄统筹</text>
+    <text x="632" y="384" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#34342f">剪辑跟进</text>
+    <text x="632" y="444" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#34342f">发布复盘</text>
+  </g>
+</svg>
